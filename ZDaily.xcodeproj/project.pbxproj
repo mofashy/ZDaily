@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F04E78EB22534FE500F756D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E78EA22534FE500F756D2 /* AppDelegate.swift */; };
+		F04E78ED22534FE500F756D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E78EC22534FE500F756D2 /* ViewController.swift */; };
+		F04E78EF22534FE700F756D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F04E78EE22534FE700F756D2 /* Assets.xcassets */; };
+		F04E78F222534FE700F756D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F04E78F022534FE700F756D2 /* Main.storyboard */; };
+		F04E78FE22534FE700F756D2 /* ZDailyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E78FD22534FE700F756D2 /* ZDailyTests.swift */; };
+		F04E790922534FE700F756D2 /* ZDailyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E790822534FE700F756D2 /* ZDailyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F04E78FA22534FE700F756D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F04E78DF22534FE500F756D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F04E78E622534FE500F756D2;
+			remoteInfo = ZDaily;
+		};
+		F04E790522534FE700F756D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F04E78DF22534FE500F756D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F04E78E622534FE500F756D2;
+			remoteInfo = ZDaily;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F04E78E722534FE500F756D2 /* ZDaily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZDaily.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F04E78EA22534FE500F756D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F04E78EC22534FE500F756D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F04E78EE22534FE700F756D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F04E78F122534FE700F756D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F04E78F322534FE700F756D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F04E78F422534FE700F756D2 /* ZDaily.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZDaily.entitlements; sourceTree = "<group>"; };
+		F04E78F922534FE700F756D2 /* ZDailyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDailyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F04E78FD22534FE700F756D2 /* ZDailyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZDailyTests.swift; sourceTree = "<group>"; };
+		F04E78FF22534FE700F756D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F04E790422534FE700F756D2 /* ZDailyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDailyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F04E790822534FE700F756D2 /* ZDailyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZDailyUITests.swift; sourceTree = "<group>"; };
+		F04E790A22534FE700F756D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F04E78E422534FE500F756D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04E78F622534FE700F756D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04E790122534FE700F756D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F04E78DE22534FE500F756D2 = {
+			isa = PBXGroup;
+			children = (
+				F04E78E922534FE500F756D2 /* ZDaily */,
+				F04E78FC22534FE700F756D2 /* ZDailyTests */,
+				F04E790722534FE700F756D2 /* ZDailyUITests */,
+				F04E78E822534FE500F756D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F04E78E822534FE500F756D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F04E78E722534FE500F756D2 /* ZDaily.app */,
+				F04E78F922534FE700F756D2 /* ZDailyTests.xctest */,
+				F04E790422534FE700F756D2 /* ZDailyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F04E78E922534FE500F756D2 /* ZDaily */ = {
+			isa = PBXGroup;
+			children = (
+				F04E78EA22534FE500F756D2 /* AppDelegate.swift */,
+				F04E78EC22534FE500F756D2 /* ViewController.swift */,
+				F04E78EE22534FE700F756D2 /* Assets.xcassets */,
+				F04E78F022534FE700F756D2 /* Main.storyboard */,
+				F04E78F322534FE700F756D2 /* Info.plist */,
+				F04E78F422534FE700F756D2 /* ZDaily.entitlements */,
+			);
+			path = ZDaily;
+			sourceTree = "<group>";
+		};
+		F04E78FC22534FE700F756D2 /* ZDailyTests */ = {
+			isa = PBXGroup;
+			children = (
+				F04E78FD22534FE700F756D2 /* ZDailyTests.swift */,
+				F04E78FF22534FE700F756D2 /* Info.plist */,
+			);
+			path = ZDailyTests;
+			sourceTree = "<group>";
+		};
+		F04E790722534FE700F756D2 /* ZDailyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F04E790822534FE700F756D2 /* ZDailyUITests.swift */,
+				F04E790A22534FE700F756D2 /* Info.plist */,
+			);
+			path = ZDailyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F04E78E622534FE500F756D2 /* ZDaily */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F04E790D22534FE700F756D2 /* Build configuration list for PBXNativeTarget "ZDaily" */;
+			buildPhases = (
+				F04E78E322534FE500F756D2 /* Sources */,
+				F04E78E422534FE500F756D2 /* Frameworks */,
+				F04E78E522534FE500F756D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZDaily;
+			productName = ZDaily;
+			productReference = F04E78E722534FE500F756D2 /* ZDaily.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F04E78F822534FE700F756D2 /* ZDailyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F04E791022534FE700F756D2 /* Build configuration list for PBXNativeTarget "ZDailyTests" */;
+			buildPhases = (
+				F04E78F522534FE700F756D2 /* Sources */,
+				F04E78F622534FE700F756D2 /* Frameworks */,
+				F04E78F722534FE700F756D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F04E78FB22534FE700F756D2 /* PBXTargetDependency */,
+			);
+			name = ZDailyTests;
+			productName = ZDailyTests;
+			productReference = F04E78F922534FE700F756D2 /* ZDailyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F04E790322534FE700F756D2 /* ZDailyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F04E791322534FE700F756D2 /* Build configuration list for PBXNativeTarget "ZDailyUITests" */;
+			buildPhases = (
+				F04E790022534FE700F756D2 /* Sources */,
+				F04E790122534FE700F756D2 /* Frameworks */,
+				F04E790222534FE700F756D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F04E790622534FE700F756D2 /* PBXTargetDependency */,
+			);
+			name = ZDailyUITests;
+			productName = ZDailyUITests;
+			productReference = F04E790422534FE700F756D2 /* ZDailyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F04E78DF22534FE500F756D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = mofashy.com;
+				TargetAttributes = {
+					F04E78E622534FE500F756D2 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					F04E78F822534FE700F756D2 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = F04E78E622534FE500F756D2;
+					};
+					F04E790322534FE700F756D2 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = F04E78E622534FE500F756D2;
+					};
+				};
+			};
+			buildConfigurationList = F04E78E222534FE500F756D2 /* Build configuration list for PBXProject "ZDaily" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F04E78DE22534FE500F756D2;
+			productRefGroup = F04E78E822534FE500F756D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F04E78E622534FE500F756D2 /* ZDaily */,
+				F04E78F822534FE700F756D2 /* ZDailyTests */,
+				F04E790322534FE700F756D2 /* ZDailyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F04E78E522534FE500F756D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04E78EF22534FE700F756D2 /* Assets.xcassets in Resources */,
+				F04E78F222534FE700F756D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04E78F722534FE700F756D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04E790222534FE700F756D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F04E78E322534FE500F756D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04E78ED22534FE500F756D2 /* ViewController.swift in Sources */,
+				F04E78EB22534FE500F756D2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04E78F522534FE700F756D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04E78FE22534FE700F756D2 /* ZDailyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04E790022534FE700F756D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04E790922534FE700F756D2 /* ZDailyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F04E78FB22534FE700F756D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F04E78E622534FE500F756D2 /* ZDaily */;
+			targetProxy = F04E78FA22534FE700F756D2 /* PBXContainerItemProxy */;
+		};
+		F04E790622534FE700F756D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F04E78E622534FE500F756D2 /* ZDaily */;
+			targetProxy = F04E790522534FE700F756D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F04E78F022534FE700F756D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F04E78F122534FE700F756D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F04E790B22534FE700F756D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F04E790C22534FE700F756D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F04E790E22534FE700F756D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZDaily/ZDaily.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y2A4GBHCSV;
+				INFOPLIST_FILE = ZDaily/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mofashy.ZDaily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F04E790F22534FE700F756D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZDaily/ZDaily.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y2A4GBHCSV;
+				INFOPLIST_FILE = ZDaily/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mofashy.ZDaily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F04E791122534FE700F756D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y2A4GBHCSV;
+				INFOPLIST_FILE = ZDailyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mofashy.ZDailyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZDaily.app/Contents/MacOS/ZDaily";
+			};
+			name = Debug;
+		};
+		F04E791222534FE700F756D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y2A4GBHCSV;
+				INFOPLIST_FILE = ZDailyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mofashy.ZDailyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZDaily.app/Contents/MacOS/ZDaily";
+			};
+			name = Release;
+		};
+		F04E791422534FE700F756D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y2A4GBHCSV;
+				INFOPLIST_FILE = ZDailyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mofashy.ZDailyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ZDaily;
+			};
+			name = Debug;
+		};
+		F04E791522534FE700F756D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y2A4GBHCSV;
+				INFOPLIST_FILE = ZDailyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mofashy.ZDailyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ZDaily;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F04E78E222534FE500F756D2 /* Build configuration list for PBXProject "ZDaily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04E790B22534FE700F756D2 /* Debug */,
+				F04E790C22534FE700F756D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F04E790D22534FE700F756D2 /* Build configuration list for PBXNativeTarget "ZDaily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04E790E22534FE700F756D2 /* Debug */,
+				F04E790F22534FE700F756D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F04E791022534FE700F756D2 /* Build configuration list for PBXNativeTarget "ZDailyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04E791122534FE700F756D2 /* Debug */,
+				F04E791222534FE700F756D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F04E791322534FE700F756D2 /* Build configuration list for PBXNativeTarget "ZDailyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04E791422534FE700F756D2 /* Debug */,
+				F04E791522534FE700F756D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F04E78DF22534FE500F756D2 /* Project object */;
+}
