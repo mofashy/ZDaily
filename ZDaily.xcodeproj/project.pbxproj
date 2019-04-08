@@ -7,15 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B50906BB2D0C349CB33AAB5 /* Pods_ZDailyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F56599DFB47522DFC9297F /* Pods_ZDailyUITests.framework */; };
+		C462946B4CFA2434CA8347E2 /* Pods_ZDaily.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E68A9CE4D38F7626FA1D19 /* Pods_ZDaily.framework */; };
+		E806D6480FB8A600252BA9F9 /* Pods_ZDailyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20711E0E95CFDC84DE0CAD9 /* Pods_ZDailyTests.framework */; };
+		F003542122549E9000FB2E09 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F003542022549E9000FB2E09 /* NotificationCenter.framework */; };
+		F003542422549E9000FB2E09 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003542322549E9000FB2E09 /* TodayViewController.swift */; };
+		F003542722549E9000FB2E09 /* TodayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F003542522549E9000FB2E09 /* TodayViewController.xib */; };
+		F003542B22549E9000FB2E09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F003542922549E9000FB2E09 /* InfoPlist.strings */; };
+		F003542F22549E9000FB2E09 /* Today.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F003541F22549E9000FB2E09 /* Today.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F00354382255946700FB2E09 /* Notis.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00354372255946700FB2E09 /* Notis.swift */; };
+		F003543A2255A37900FB2E09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F00354392255A37900FB2E09 /* InfoPlist.strings */; };
 		F04E78EB22534FE500F756D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E78EA22534FE500F756D2 /* AppDelegate.swift */; };
 		F04E78ED22534FE500F756D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E78EC22534FE500F756D2 /* ViewController.swift */; };
 		F04E78EF22534FE700F756D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F04E78EE22534FE700F756D2 /* Assets.xcassets */; };
 		F04E78F222534FE700F756D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F04E78F022534FE700F756D2 /* Main.storyboard */; };
 		F04E78FE22534FE700F756D2 /* ZDailyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E78FD22534FE700F756D2 /* ZDailyTests.swift */; };
 		F04E790922534FE700F756D2 /* ZDailyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E790822534FE700F756D2 /* ZDailyUITests.swift */; };
+		F04E791B2253529200F756D2 /* OutlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E791A2253529200F756D2 /* OutlineViewController.swift */; };
+		F04E791D2253540B00F756D2 /* LinkSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E791C2253540B00F756D2 /* LinkSplitViewController.swift */; };
+		F04E79232253543F00F756D2 /* GroupedSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E79222253543F00F756D2 /* GroupedSplitViewController.swift */; };
+		F04E7926225358AF00F756D2 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E7925225358AF00F756D2 /* Section.swift */; };
+		F04E792922535B7700F756D2 /* Apis.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E792822535B7700F756D2 /* Apis.swift */; };
+		F04E792C2253641800F756D2 /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E792B2253641800F756D2 /* Rocket.swift */; };
+		F04E792E2254405500F756D2 /* StoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E792D2254405500F756D2 /* StoriesViewController.swift */; };
+		F04E7930225443E700F756D2 /* StoriesCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E792F225443E700F756D2 /* StoriesCellView.swift */; };
+		F04E7932225451D900F756D2 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E7931225451D900F756D2 /* WebViewController.swift */; };
+		F04E79342254522200F756D2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F04E79332254522200F756D2 /* WebKit.framework */; };
+		F04E79362254525F00F756D2 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E79352254525F00F756D2 /* News.swift */; };
+		F04E79382254570C00F756D2 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E79372254570C00F756D2 /* Story.swift */; };
+		F04E793B22546B1500F756D2 /* NSButton+ZDaily.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E793A22546B1500F756D2 /* NSButton+ZDaily.swift */; };
+		F04E793D225493D800F756D2 /* LatestStories.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E793C225493D800F756D2 /* LatestStories.swift */; };
+		F04E793F225495BD00F756D2 /* BeforeStories.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E793E225495BD00F756D2 /* BeforeStories.swift */; };
+		F04E79412254961200F756D2 /* SectionStories.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E79402254961200F756D2 /* SectionStories.swift */; };
+		F06A87E122586707008C16F3 /* Scrollview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A87E022586707008C16F3 /* Scrollview.swift */; };
+		F06A87E322587497008C16F3 /* ZalendarView+Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A87E222587497008C16F3 /* ZalendarView+Navigator.swift */; };
+		F06A87E5225874C3008C16F3 /* ZalendarView+Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A87E4225874C3008C16F3 /* ZalendarView+Stack.swift */; };
+		F06A87E722587E55008C16F3 /* ZalendarGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A87E622587E55008C16F3 /* ZalendarGridView.swift */; };
+		F06A87E9225AD8B3008C16F3 /* BeforeDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A87E8225AD8B3008C16F3 /* BeforeDate.swift */; };
+		F06A87EB225AD958008C16F3 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A87EA225AD958008C16F3 /* SectionHeaderView.swift */; };
+		F0C531202255BF2000CADB1B /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C5311F2255BF2000CADB1B /* CommentsViewController.swift */; };
+		F0C531222255BF8C00CADB1B /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C531212255BF8C00CADB1B /* Comment.swift */; };
+		F0C531242255D5DF00CADB1B /* CommentsCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C531232255D5DF00CADB1B /* CommentsCellView.swift */; };
+		F0C531272256195D00CADB1B /* PresentCommentsAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C531262256195D00CADB1B /* PresentCommentsAnimator.swift */; };
+		F0C531292256456A00CADB1B /* NSColor+ZDaily.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C531282256456A00CADB1B /* NSColor+ZDaily.swift */; };
+		F0C5312C225649F100CADB1B /* SingleDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C5312B225649F100CADB1B /* SingleDateFormatter.swift */; };
+		F0C5312E2256ED3700CADB1B /* BeforeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C5312D2256ED3700CADB1B /* BeforeHeaderView.swift */; };
+		F0C531302256F4E400CADB1B /* SingleCalender.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C5312F2256F4E400CADB1B /* SingleCalender.swift */; };
+		F0C531342257C6C000CADB1B /* Zalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C531332257C6C000CADB1B /* Zalendar.swift */; };
+		F0C531362257C70600CADB1B /* ZalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C531352257C70600CADB1B /* ZalendarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		F003542D22549E9000FB2E09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F04E78DF22534FE500F756D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F003541E22549E9000FB2E09;
+			remoteInfo = Today;
+		};
 		F04E78FA22534FE700F756D2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F04E78DF22534FE500F756D2 /* Project object */;
@@ -32,7 +81,39 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F003543322549E9000FB2E09 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F003542F22549E9000FB2E09 /* Today.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		097CF06477A1C8C176D06FFE /* Pods-ZDaily.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDaily.debug.xcconfig"; path = "Target Support Files/Pods-ZDaily/Pods-ZDaily.debug.xcconfig"; sourceTree = "<group>"; };
+		0A69D521809EEA89D2F21DBB /* Pods-ZDaily.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDaily.release.xcconfig"; path = "Target Support Files/Pods-ZDaily/Pods-ZDaily.release.xcconfig"; sourceTree = "<group>"; };
+		1403C41C63D6FDA82DC967A3 /* Pods-ZDailyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDailyTests.debug.xcconfig"; path = "Target Support Files/Pods-ZDailyTests/Pods-ZDailyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		28E68A9CE4D38F7626FA1D19 /* Pods_ZDaily.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZDaily.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F56599DFB47522DFC9297F /* Pods_ZDailyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZDailyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87435F1D0D9C628741591BB9 /* Pods-ZDailyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDailyTests.release.xcconfig"; path = "Target Support Files/Pods-ZDailyTests/Pods-ZDailyTests.release.xcconfig"; sourceTree = "<group>"; };
+		C22AA438F81651804A79687E /* Pods-ZDailyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDailyUITests.release.xcconfig"; path = "Target Support Files/Pods-ZDailyUITests/Pods-ZDailyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E20711E0E95CFDC84DE0CAD9 /* Pods_ZDailyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZDailyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7C7EEA114A5EF3CE041710 /* Pods-ZDailyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDailyUITests.debug.xcconfig"; path = "Target Support Files/Pods-ZDailyUITests/Pods-ZDailyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F003541F22549E9000FB2E09 /* Today.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Today.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F003542022549E9000FB2E09 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		F003542322549E9000FB2E09 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		F003542622549E9000FB2E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TodayViewController.xib; sourceTree = "<group>"; };
+		F003542822549E9000FB2E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F003542A22549E9000FB2E09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F003542C22549E9000FB2E09 /* Today.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Today.entitlements; sourceTree = "<group>"; };
+		F00354372255946700FB2E09 /* Notis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notis.swift; sourceTree = "<group>"; };
+		F00354392255A37900FB2E09 /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		F04E78E722534FE500F756D2 /* ZDaily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZDaily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04E78EA22534FE500F756D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F04E78EC22534FE500F756D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,13 +127,55 @@
 		F04E790422534FE700F756D2 /* ZDailyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDailyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04E790822534FE700F756D2 /* ZDailyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZDailyUITests.swift; sourceTree = "<group>"; };
 		F04E790A22534FE700F756D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F04E791A2253529200F756D2 /* OutlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineViewController.swift; sourceTree = "<group>"; };
+		F04E791C2253540B00F756D2 /* LinkSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkSplitViewController.swift; sourceTree = "<group>"; };
+		F04E79222253543F00F756D2 /* GroupedSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedSplitViewController.swift; sourceTree = "<group>"; };
+		F04E7925225358AF00F756D2 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		F04E792822535B7700F756D2 /* Apis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apis.swift; sourceTree = "<group>"; };
+		F04E792B2253641800F756D2 /* Rocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket.swift; sourceTree = "<group>"; };
+		F04E792D2254405500F756D2 /* StoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesViewController.swift; sourceTree = "<group>"; };
+		F04E792F225443E700F756D2 /* StoriesCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesCellView.swift; sourceTree = "<group>"; };
+		F04E7931225451D900F756D2 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		F04E79332254522200F756D2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		F04E79352254525F00F756D2 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		F04E79372254570C00F756D2 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		F04E793A22546B1500F756D2 /* NSButton+ZDaily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSButton+ZDaily.swift"; sourceTree = "<group>"; };
+		F04E793C225493D800F756D2 /* LatestStories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestStories.swift; sourceTree = "<group>"; };
+		F04E793E225495BD00F756D2 /* BeforeStories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeStories.swift; sourceTree = "<group>"; };
+		F04E79402254961200F756D2 /* SectionStories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionStories.swift; sourceTree = "<group>"; };
+		F06A87E022586707008C16F3 /* Scrollview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrollview.swift; sourceTree = "<group>"; };
+		F06A87E222587497008C16F3 /* ZalendarView+Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZalendarView+Navigator.swift"; sourceTree = "<group>"; };
+		F06A87E4225874C3008C16F3 /* ZalendarView+Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZalendarView+Stack.swift"; sourceTree = "<group>"; };
+		F06A87E622587E55008C16F3 /* ZalendarGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZalendarGridView.swift; sourceTree = "<group>"; };
+		F06A87E8225AD8B3008C16F3 /* BeforeDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeDate.swift; sourceTree = "<group>"; };
+		F06A87EA225AD958008C16F3 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		F0C5311F2255BF2000CADB1B /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		F0C531212255BF8C00CADB1B /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		F0C531232255D5DF00CADB1B /* CommentsCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsCellView.swift; sourceTree = "<group>"; };
+		F0C531262256195D00CADB1B /* PresentCommentsAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentCommentsAnimator.swift; sourceTree = "<group>"; };
+		F0C531282256456A00CADB1B /* NSColor+ZDaily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSColor+ZDaily.swift"; sourceTree = "<group>"; };
+		F0C5312B225649F100CADB1B /* SingleDateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleDateFormatter.swift; sourceTree = "<group>"; };
+		F0C5312D2256ED3700CADB1B /* BeforeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeHeaderView.swift; sourceTree = "<group>"; };
+		F0C5312F2256F4E400CADB1B /* SingleCalender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCalender.swift; sourceTree = "<group>"; };
+		F0C531332257C6C000CADB1B /* Zalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zalendar.swift; sourceTree = "<group>"; };
+		F0C531352257C70600CADB1B /* ZalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZalendarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F003541C22549E9000FB2E09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F003542122549E9000FB2E09 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F04E78E422534FE500F756D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F04E79342254522200F756D2 /* WebKit.framework in Frameworks */,
+				C462946B4CFA2434CA8347E2 /* Pods_ZDaily.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +183,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E806D6480FB8A600252BA9F9 /* Pods_ZDailyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,19 +191,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B50906BB2D0C349CB33AAB5 /* Pods_ZDailyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06C77BB9889C8EE35E8BA131 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F04E79332254522200F756D2 /* WebKit.framework */,
+				28E68A9CE4D38F7626FA1D19 /* Pods_ZDaily.framework */,
+				E20711E0E95CFDC84DE0CAD9 /* Pods_ZDailyTests.framework */,
+				47F56599DFB47522DFC9297F /* Pods_ZDailyUITests.framework */,
+				F003542022549E9000FB2E09 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C09D62ED197BBDC5F5A74D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				097CF06477A1C8C176D06FFE /* Pods-ZDaily.debug.xcconfig */,
+				0A69D521809EEA89D2F21DBB /* Pods-ZDaily.release.xcconfig */,
+				1403C41C63D6FDA82DC967A3 /* Pods-ZDailyTests.debug.xcconfig */,
+				87435F1D0D9C628741591BB9 /* Pods-ZDailyTests.release.xcconfig */,
+				EC7C7EEA114A5EF3CE041710 /* Pods-ZDailyUITests.debug.xcconfig */,
+				C22AA438F81651804A79687E /* Pods-ZDailyUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F003542222549E9000FB2E09 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				F003542322549E9000FB2E09 /* TodayViewController.swift */,
+				F003542522549E9000FB2E09 /* TodayViewController.xib */,
+				F003542822549E9000FB2E09 /* Info.plist */,
+				F003542922549E9000FB2E09 /* InfoPlist.strings */,
+				F003542C22549E9000FB2E09 /* Today.entitlements */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
 		F04E78DE22534FE500F756D2 = {
 			isa = PBXGroup;
 			children = (
 				F04E78E922534FE500F756D2 /* ZDaily */,
 				F04E78FC22534FE700F756D2 /* ZDailyTests */,
 				F04E790722534FE700F756D2 /* ZDailyUITests */,
+				F003542222549E9000FB2E09 /* Today */,
 				F04E78E822534FE500F756D2 /* Products */,
+				7C09D62ED197BBDC5F5A74D8 /* Pods */,
+				06C77BB9889C8EE35E8BA131 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +254,7 @@
 				F04E78E722534FE500F756D2 /* ZDaily.app */,
 				F04E78F922534FE700F756D2 /* ZDailyTests.xctest */,
 				F04E790422534FE700F756D2 /* ZDailyUITests.xctest */,
+				F003541F22549E9000FB2E09 /* Today.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,12 +262,14 @@
 		F04E78E922534FE500F756D2 /* ZDaily */ = {
 			isa = PBXGroup;
 			children = (
+				F04E79162253520700F756D2 /* Classes */,
 				F04E78EA22534FE500F756D2 /* AppDelegate.swift */,
 				F04E78EC22534FE500F756D2 /* ViewController.swift */,
 				F04E78EE22534FE700F756D2 /* Assets.xcassets */,
 				F04E78F022534FE700F756D2 /* Main.storyboard */,
 				F04E78F322534FE700F756D2 /* Info.plist */,
 				F04E78F422534FE700F756D2 /* ZDaily.entitlements */,
+				F00354392255A37900FB2E09 /* InfoPlist.strings */,
 			);
 			path = ZDaily;
 			sourceTree = "<group>";
@@ -124,20 +292,160 @@
 			path = ZDailyUITests;
 			sourceTree = "<group>";
 		};
+		F04E79162253520700F756D2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F0C531312257C60600CADB1B /* Library */,
+				F0C5312A225649BA00CADB1B /* Tool */,
+				F0C531252256192400CADB1B /* Animator */,
+				F04E793922546ADD00F756D2 /* Extension */,
+				F04E792A2253636700F756D2 /* Network */,
+				F04E792722535B5E00F756D2 /* Defs */,
+				F04E79192253524500F756D2 /* Controller */,
+				F04E79182253524000F756D2 /* View */,
+				F04E79172253523900F756D2 /* Model */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F04E79172253523900F756D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F04E7925225358AF00F756D2 /* Section.swift */,
+				F04E79372254570C00F756D2 /* Story.swift */,
+				F04E79352254525F00F756D2 /* News.swift */,
+				F04E793C225493D800F756D2 /* LatestStories.swift */,
+				F04E793E225495BD00F756D2 /* BeforeStories.swift */,
+				F04E79402254961200F756D2 /* SectionStories.swift */,
+				F0C531212255BF8C00CADB1B /* Comment.swift */,
+				F06A87E8225AD8B3008C16F3 /* BeforeDate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F04E79182253524000F756D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F04E792F225443E700F756D2 /* StoriesCellView.swift */,
+				F0C531232255D5DF00CADB1B /* CommentsCellView.swift */,
+				F0C5312D2256ED3700CADB1B /* BeforeHeaderView.swift */,
+				F06A87EA225AD958008C16F3 /* SectionHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F04E79192253524500F756D2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F04E79222253543F00F756D2 /* GroupedSplitViewController.swift */,
+				F04E791C2253540B00F756D2 /* LinkSplitViewController.swift */,
+				F04E791A2253529200F756D2 /* OutlineViewController.swift */,
+				F04E792D2254405500F756D2 /* StoriesViewController.swift */,
+				F04E7931225451D900F756D2 /* WebViewController.swift */,
+				F0C5311F2255BF2000CADB1B /* CommentsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F04E792722535B5E00F756D2 /* Defs */ = {
+			isa = PBXGroup;
+			children = (
+				F04E792822535B7700F756D2 /* Apis.swift */,
+				F00354372255946700FB2E09 /* Notis.swift */,
+			);
+			path = Defs;
+			sourceTree = "<group>";
+		};
+		F04E792A2253636700F756D2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F04E792B2253641800F756D2 /* Rocket.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F04E793922546ADD00F756D2 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F04E793A22546B1500F756D2 /* NSButton+ZDaily.swift */,
+				F0C531282256456A00CADB1B /* NSColor+ZDaily.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F0C531252256192400CADB1B /* Animator */ = {
+			isa = PBXGroup;
+			children = (
+				F0C531262256195D00CADB1B /* PresentCommentsAnimator.swift */,
+			);
+			path = Animator;
+			sourceTree = "<group>";
+		};
+		F0C5312A225649BA00CADB1B /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				F0C5312B225649F100CADB1B /* SingleDateFormatter.swift */,
+				F0C5312F2256F4E400CADB1B /* SingleCalender.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		F0C531312257C60600CADB1B /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				F0C531322257C63F00CADB1B /* Zalendar */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		F0C531322257C63F00CADB1B /* Zalendar */ = {
+			isa = PBXGroup;
+			children = (
+				F0C531332257C6C000CADB1B /* Zalendar.swift */,
+				F0C531352257C70600CADB1B /* ZalendarView.swift */,
+				F06A87E622587E55008C16F3 /* ZalendarGridView.swift */,
+				F06A87E222587497008C16F3 /* ZalendarView+Navigator.swift */,
+				F06A87E4225874C3008C16F3 /* ZalendarView+Stack.swift */,
+				F06A87E022586707008C16F3 /* Scrollview.swift */,
+			);
+			path = Zalendar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F04E78E622534FE500F756D2 /* ZDaily */ = {
+		F003541E22549E9000FB2E09 /* Today */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F04E790D22534FE700F756D2 /* Build configuration list for PBXNativeTarget "ZDaily" */;
+			buildConfigurationList = F003543222549E9000FB2E09 /* Build configuration list for PBXNativeTarget "Today" */;
 			buildPhases = (
-				F04E78E322534FE500F756D2 /* Sources */,
-				F04E78E422534FE500F756D2 /* Frameworks */,
-				F04E78E522534FE500F756D2 /* Resources */,
+				F003541B22549E9000FB2E09 /* Sources */,
+				F003541C22549E9000FB2E09 /* Frameworks */,
+				F003541D22549E9000FB2E09 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = Today;
+			productName = Today;
+			productReference = F003541F22549E9000FB2E09 /* Today.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F04E78E622534FE500F756D2 /* ZDaily */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F04E790D22534FE700F756D2 /* Build configuration list for PBXNativeTarget "ZDaily" */;
+			buildPhases = (
+				670AFFBA4107160BC3673859 /* [CP] Check Pods Manifest.lock */,
+				F04E78E322534FE500F756D2 /* Sources */,
+				F04E78E422534FE500F756D2 /* Frameworks */,
+				F04E78E522534FE500F756D2 /* Resources */,
+				BECEE756418C540ECCFE73CB /* [CP] Embed Pods Frameworks */,
+				F003543322549E9000FB2E09 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F003542E22549E9000FB2E09 /* PBXTargetDependency */,
 			);
 			name = ZDaily;
 			productName = ZDaily;
@@ -148,6 +456,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F04E791022534FE700F756D2 /* Build configuration list for PBXNativeTarget "ZDailyTests" */;
 			buildPhases = (
+				86DEAB389AA03D21303EA3E1 /* [CP] Check Pods Manifest.lock */,
 				F04E78F522534FE700F756D2 /* Sources */,
 				F04E78F622534FE700F756D2 /* Frameworks */,
 				F04E78F722534FE700F756D2 /* Resources */,
@@ -166,6 +475,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F04E791322534FE700F756D2 /* Build configuration list for PBXNativeTarget "ZDailyUITests" */;
 			buildPhases = (
+				6EF7343E335CDFC683F23917 /* [CP] Check Pods Manifest.lock */,
 				F04E790022534FE700F756D2 /* Sources */,
 				F04E790122534FE700F756D2 /* Frameworks */,
 				F04E790222534FE700F756D2 /* Resources */,
@@ -190,8 +500,24 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = mofashy.com;
 				TargetAttributes = {
+					F003541E22549E9000FB2E09 = {
+						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 0;
+							};
+						};
+					};
 					F04E78E622534FE500F756D2 = {
 						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					F04E78F822534FE700F756D2 = {
 						CreatedOnToolsVersion = 10.2;
@@ -219,16 +545,27 @@
 				F04E78E622534FE500F756D2 /* ZDaily */,
 				F04E78F822534FE700F756D2 /* ZDailyTests */,
 				F04E790322534FE700F756D2 /* ZDailyUITests */,
+				F003541E22549E9000FB2E09 /* Today */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F003541D22549E9000FB2E09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F003542722549E9000FB2E09 /* TodayViewController.xib in Resources */,
+				F003542B22549E9000FB2E09 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F04E78E522534FE500F756D2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F04E78EF22534FE700F756D2 /* Assets.xcassets in Resources */,
+				F003543A2255A37900FB2E09 /* InfoPlist.strings in Resources */,
 				F04E78F222534FE700F756D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,13 +586,146 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		670AFFBA4107160BC3673859 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZDaily-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EF7343E335CDFC683F23917 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZDailyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86DEAB389AA03D21303EA3E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZDailyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BECEE756418C540ECCFE73CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZDaily/Pods-ZDaily-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZDaily/Pods-ZDaily-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		F003541B22549E9000FB2E09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F003542422549E9000FB2E09 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F04E78E322534FE500F756D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0C5312C225649F100CADB1B /* SingleDateFormatter.swift in Sources */,
 				F04E78ED22534FE500F756D2 /* ViewController.swift in Sources */,
+				F04E7932225451D900F756D2 /* WebViewController.swift in Sources */,
+				F06A87E722587E55008C16F3 /* ZalendarGridView.swift in Sources */,
+				F06A87E322587497008C16F3 /* ZalendarView+Navigator.swift in Sources */,
+				F04E791D2253540B00F756D2 /* LinkSplitViewController.swift in Sources */,
+				F04E7930225443E700F756D2 /* StoriesCellView.swift in Sources */,
+				F0C531242255D5DF00CADB1B /* CommentsCellView.swift in Sources */,
+				F04E793D225493D800F756D2 /* LatestStories.swift in Sources */,
+				F0C531292256456A00CADB1B /* NSColor+ZDaily.swift in Sources */,
+				F00354382255946700FB2E09 /* Notis.swift in Sources */,
+				F0C531302256F4E400CADB1B /* SingleCalender.swift in Sources */,
+				F04E791B2253529200F756D2 /* OutlineViewController.swift in Sources */,
+				F0C531202255BF2000CADB1B /* CommentsViewController.swift in Sources */,
+				F06A87E9225AD8B3008C16F3 /* BeforeDate.swift in Sources */,
+				F04E792922535B7700F756D2 /* Apis.swift in Sources */,
+				F04E793B22546B1500F756D2 /* NSButton+ZDaily.swift in Sources */,
+				F0C531342257C6C000CADB1B /* Zalendar.swift in Sources */,
+				F04E79362254525F00F756D2 /* News.swift in Sources */,
+				F0C531272256195D00CADB1B /* PresentCommentsAnimator.swift in Sources */,
+				F0C531362257C70600CADB1B /* ZalendarView.swift in Sources */,
+				F06A87E122586707008C16F3 /* Scrollview.swift in Sources */,
+				F04E79412254961200F756D2 /* SectionStories.swift in Sources */,
+				F06A87E5225874C3008C16F3 /* ZalendarView+Stack.swift in Sources */,
+				F04E7926225358AF00F756D2 /* Section.swift in Sources */,
+				F04E793F225495BD00F756D2 /* BeforeStories.swift in Sources */,
+				F04E79232253543F00F756D2 /* GroupedSplitViewController.swift in Sources */,
+				F06A87EB225AD958008C16F3 /* SectionHeaderView.swift in Sources */,
+				F0C531222255BF8C00CADB1B /* Comment.swift in Sources */,
 				F04E78EB22534FE500F756D2 /* AppDelegate.swift in Sources */,
+				F04E792C2253641800F756D2 /* Rocket.swift in Sources */,
+				F0C5312E2256ED3700CADB1B /* BeforeHeaderView.swift in Sources */,
+				F04E792E2254405500F756D2 /* StoriesViewController.swift in Sources */,
+				F04E79382254570C00F756D2 /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +748,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		F003542E22549E9000FB2E09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F003541E22549E9000FB2E09 /* Today */;
+			targetProxy = F003542D22549E9000FB2E09 /* PBXContainerItemProxy */;
+		};
 		F04E78FB22534FE700F756D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F04E78E622534FE500F756D2 /* ZDaily */;
@@ -291,6 +766,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		F003542522549E9000FB2E09 /* TodayViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F003542622549E9000FB2E09 /* Base */,
+			);
+			name = TodayViewController.xib;
+			sourceTree = "<group>";
+		};
+		F003542922549E9000FB2E09 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F003542A22549E9000FB2E09 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		F04E78F022534FE700F756D2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -302,6 +793,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F003543022549E9000FB2E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Today/Today.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y2A4GBHCSV;
+				INFOPLIST_FILE = Today/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mofashy.ZDaily.Today;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F003543122549E9000FB2E09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Today/Today.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y2A4GBHCSV;
+				INFOPLIST_FILE = Today/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mofashy.ZDaily.Today;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		F04E790B22534FE700F756D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -419,7 +952,9 @@
 		};
 		F04E790E22534FE700F756D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 097CF06477A1C8C176D06FFE /* Pods-ZDaily.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ZDaily/ZDaily.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -430,6 +965,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mofashy.ZDaily;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -438,7 +974,9 @@
 		};
 		F04E790F22534FE700F756D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A69D521809EEA89D2F21DBB /* Pods-ZDaily.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ZDaily/ZDaily.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +987,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mofashy.ZDaily;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -457,6 +996,7 @@
 		};
 		F04E791122534FE700F756D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1403C41C63D6FDA82DC967A3 /* Pods-ZDailyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -478,6 +1018,7 @@
 		};
 		F04E791222534FE700F756D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87435F1D0D9C628741591BB9 /* Pods-ZDailyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -499,6 +1040,7 @@
 		};
 		F04E791422534FE700F756D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC7C7EEA114A5EF3CE041710 /* Pods-ZDailyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -519,6 +1061,7 @@
 		};
 		F04E791522534FE700F756D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C22AA438F81651804A79687E /* Pods-ZDailyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -540,6 +1083,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F003543222549E9000FB2E09 /* Build configuration list for PBXNativeTarget "Today" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F003543022549E9000FB2E09 /* Debug */,
+				F003543122549E9000FB2E09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F04E78E222534FE500F756D2 /* Build configuration list for PBXProject "ZDaily" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
