@@ -9,6 +9,7 @@ target 'ZDaily' do
   # Pods for ZDaily
   pod 'Alamofire'
   pod 'Kingfisher'
+  pod 'PromiseKit'
 
   target 'ZDailyTests' do
     inherit! :search_paths

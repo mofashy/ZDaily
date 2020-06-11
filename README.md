@@ -4,7 +4,10 @@
 ---
 预览
 
-<!-- <img src="./Previews/preview01.png"> -->
-![preview01](./Previews/preview01.png)
-![preview02](./Previews/preview02.png)
-![preview03](./Previews/preview03.png)
+![preview01](./Previews/preview01@2x.png)
+
+![preview02](./Previews/preview02@2x.png)
+
+![preview03](./Previews/preview03@2x.png)
+
+<img src='./Previews/preview04@2x.png' width='50%' align='left'>

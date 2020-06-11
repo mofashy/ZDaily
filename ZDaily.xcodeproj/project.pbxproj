@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,44 +17,55 @@
 		F003542F22549E9000FB2E09 /* Today.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F003541F22549E9000FB2E09 /* Today.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F00354382255946700FB2E09 /* Notis.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00354372255946700FB2E09 /* Notis.swift */; };
 		F003543A2255A37900FB2E09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F00354392255A37900FB2E09 /* InfoPlist.strings */; };
+		F00EE08724908F7F00E4B390 /* CalendarDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EE08624908F7F00E4B390 /* CalendarDate.swift */; };
+		F00EE08A24908FEF00E4B390 /* SectionSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EE08924908FEF00E4B390 /* SectionSplitViewController.swift */; };
+		F00EE08C24908FFC00E4B390 /* Section.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F00EE08B24908FFC00E4B390 /* Section.storyboard */; };
+		F00EE0902490910C00E4B390 /* SectionListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EE08F2490910C00E4B390 /* SectionListCellView.swift */; };
+		F00EE092249091A700E4B390 /* SectionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EE091249091A700E4B390 /* SectionListViewController.swift */; };
+		F00EE0942490A8DE00E4B390 /* SectionDetailCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EE0932490A8DE00E4B390 /* SectionDetailCellView.swift */; };
+		F00EE0962490A96B00E4B390 /* SectionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EE0952490A96B00E4B390 /* SectionDetailViewController.swift */; };
+		F00EE0992490B1DE00E4B390 /* Web.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F00EE0982490B1DE00E4B390 /* Web.storyboard */; };
+		F00EE09C2490B59100E4B390 /* StoryDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EE09B2490B59100E4B390 /* StoryDetail.swift */; };
+		F00EE09E2490B5AF00E4B390 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EE09D2490B5AF00E4B390 /* Story.swift */; };
+		F00EE0A02490B5D200E4B390 /* BeforeStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EE09F2490B5D200E4B390 /* BeforeStory.swift */; };
+		F00EE0A22490B5E900E4B390 /* LatestStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EE0A12490B5E900E4B390 /* LatestStory.swift */; };
+		F00EE0A42490B5FD00E4B390 /* SectionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EE0A32490B5FD00E4B390 /* SectionDetail.swift */; };
+		F00EE0A62490B62D00E4B390 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EE0A52490B62D00E4B390 /* Section.swift */; };
+		F00EE0A92490B8CA00E4B390 /* PushAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EE0A82490B8CA00E4B390 /* PushAnimator.swift */; };
+		F00EE0AE2490BD8C00E4B390 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EE0AD2490BD8C00E4B390 /* Comment.swift */; };
+		F00EE0B02490BEC700E4B390 /* Comment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F00EE0AF2490BEC700E4B390 /* Comment.storyboard */; };
+		F00EE0B22490C17900E4B390 /* CommentListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EE0B12490C17900E4B390 /* CommentListCellView.swift */; };
+		F00EE0B42490C23D00E4B390 /* CommentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EE0B32490C23D00E4B390 /* CommentListViewController.swift */; };
+		F00EE0B62490D2D000E4B390 /* LatestRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EE0B52490D2D000E4B390 /* LatestRequest.swift */; };
+		F00EE0B82490D31400E4B390 /* BeforeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EE0B72490D31400E4B390 /* BeforeRequest.swift */; };
+		F00EE0BA2490D35500E4B390 /* SectionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EE0B92490D35500E4B390 /* SectionRequest.swift */; };
+		F00EE0BC2490D8FE00E4B390 /* PagingScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EE0BB2490D8FE00E4B390 /* PagingScrollView.swift */; };
+		F00EE0BE2491C5C600E4B390 /* NSView+ZDaily.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EE0BD2491C5C600E4B390 /* NSView+ZDaily.swift */; };
+		F00EE0C02491C83B00E4B390 /* NSViewController+ZDaily.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EE0BF2491C83B00E4B390 /* NSViewController+ZDaily.swift */; };
+		F0336349248F29E3002AAEDD /* LatestSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0336348248F29E3002AAEDD /* LatestSplitViewController.swift */; };
+		F033634B248F29FC002AAEDD /* Latest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F033634A248F29FC002AAEDD /* Latest.storyboard */; };
+		F033634E248F2D19002AAEDD /* LatestBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F033634D248F2D19002AAEDD /* LatestBannerView.swift */; };
+		F0336350248F3979002AAEDD /* LatestListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F033634F248F3979002AAEDD /* LatestListViewController.swift */; };
+		F0336354248F3D21002AAEDD /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0336353248F3D21002AAEDD /* WindowController.swift */; };
+		F0336356248F3FD8002AAEDD /* PageIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0336355248F3FD8002AAEDD /* PageIndicatorView.swift */; };
+		F0336358248F815E002AAEDD /* LatestBannerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0336357248F815E002AAEDD /* LatestBannerView.xib */; };
+		F0336398249078C6002AAEDD /* Before.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0336397249078C6002AAEDD /* Before.storyboard */; };
+		F033639A24907AFF002AAEDD /* BeforeSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F033639924907AFF002AAEDD /* BeforeSplitViewController.swift */; };
+		F033639C24907B3F002AAEDD /* BeforeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F033639B24907B3F002AAEDD /* BeforeListViewController.swift */; };
+		F033639F24907C7A002AAEDD /* BeforeListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F033639E24907C7A002AAEDD /* BeforeListCellView.swift */; };
+		F03363A124907F74002AAEDD /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03363A024907F74002AAEDD /* CalendarView.swift */; };
+		F03363A324907F99002AAEDD /* CalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F03363A224907F99002AAEDD /* CalendarView.xib */; };
 		F04E78EB22534FE500F756D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E78EA22534FE500F756D2 /* AppDelegate.swift */; };
-		F04E78ED22534FE500F756D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E78EC22534FE500F756D2 /* ViewController.swift */; };
 		F04E78EF22534FE700F756D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F04E78EE22534FE700F756D2 /* Assets.xcassets */; };
 		F04E78F222534FE700F756D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F04E78F022534FE700F756D2 /* Main.storyboard */; };
 		F04E78FE22534FE700F756D2 /* ZDailyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E78FD22534FE700F756D2 /* ZDailyTests.swift */; };
 		F04E790922534FE700F756D2 /* ZDailyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E790822534FE700F756D2 /* ZDailyUITests.swift */; };
-		F04E791B2253529200F756D2 /* OutlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E791A2253529200F756D2 /* OutlineViewController.swift */; };
-		F04E791D2253540B00F756D2 /* LinkSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E791C2253540B00F756D2 /* LinkSplitViewController.swift */; };
-		F04E79232253543F00F756D2 /* GroupedSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E79222253543F00F756D2 /* GroupedSplitViewController.swift */; };
-		F04E7926225358AF00F756D2 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E7925225358AF00F756D2 /* Section.swift */; };
-		F04E792922535B7700F756D2 /* Apis.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E792822535B7700F756D2 /* Apis.swift */; };
 		F04E792C2253641800F756D2 /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E792B2253641800F756D2 /* Rocket.swift */; };
-		F04E792E2254405500F756D2 /* StoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E792D2254405500F756D2 /* StoriesViewController.swift */; };
-		F04E7930225443E700F756D2 /* StoriesCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E792F225443E700F756D2 /* StoriesCellView.swift */; };
 		F04E7932225451D900F756D2 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E7931225451D900F756D2 /* WebViewController.swift */; };
 		F04E79342254522200F756D2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F04E79332254522200F756D2 /* WebKit.framework */; };
-		F04E79362254525F00F756D2 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E79352254525F00F756D2 /* News.swift */; };
-		F04E79382254570C00F756D2 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E79372254570C00F756D2 /* Story.swift */; };
-		F04E793B22546B1500F756D2 /* NSButton+ZDaily.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E793A22546B1500F756D2 /* NSButton+ZDaily.swift */; };
-		F04E793D225493D800F756D2 /* LatestStories.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E793C225493D800F756D2 /* LatestStories.swift */; };
-		F04E793F225495BD00F756D2 /* BeforeStories.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E793E225495BD00F756D2 /* BeforeStories.swift */; };
-		F04E79412254961200F756D2 /* SectionStories.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04E79402254961200F756D2 /* SectionStories.swift */; };
-		F06A87E122586707008C16F3 /* Scrollview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A87E022586707008C16F3 /* Scrollview.swift */; };
-		F06A87E322587497008C16F3 /* ZalendarView+Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A87E222587497008C16F3 /* ZalendarView+Navigator.swift */; };
-		F06A87E5225874C3008C16F3 /* ZalendarView+Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A87E4225874C3008C16F3 /* ZalendarView+Stack.swift */; };
-		F06A87E722587E55008C16F3 /* ZalendarGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A87E622587E55008C16F3 /* ZalendarGridView.swift */; };
-		F06A87E9225AD8B3008C16F3 /* BeforeDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A87E8225AD8B3008C16F3 /* BeforeDate.swift */; };
-		F06A87EB225AD958008C16F3 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A87EA225AD958008C16F3 /* SectionHeaderView.swift */; };
-		F0C531202255BF2000CADB1B /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C5311F2255BF2000CADB1B /* CommentsViewController.swift */; };
-		F0C531222255BF8C00CADB1B /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C531212255BF8C00CADB1B /* Comment.swift */; };
-		F0C531242255D5DF00CADB1B /* CommentsCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C531232255D5DF00CADB1B /* CommentsCellView.swift */; };
-		F0C531272256195D00CADB1B /* PresentCommentsAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C531262256195D00CADB1B /* PresentCommentsAnimator.swift */; };
 		F0C531292256456A00CADB1B /* NSColor+ZDaily.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C531282256456A00CADB1B /* NSColor+ZDaily.swift */; };
-		F0C5312C225649F100CADB1B /* SingleDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C5312B225649F100CADB1B /* SingleDateFormatter.swift */; };
-		F0C5312E2256ED3700CADB1B /* BeforeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C5312D2256ED3700CADB1B /* BeforeHeaderView.swift */; };
-		F0C531302256F4E400CADB1B /* SingleCalender.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C5312F2256F4E400CADB1B /* SingleCalender.swift */; };
-		F0C531342257C6C000CADB1B /* Zalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C531332257C6C000CADB1B /* Zalendar.swift */; };
-		F0C531362257C70600CADB1B /* ZalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C531352257C70600CADB1B /* ZalendarView.swift */; };
+		F0C5312C225649F100CADB1B /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C5312B225649F100CADB1B /* DateUtils.swift */; };
+		F0C531302256F4E400CADB1B /* CalendarUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C5312F2256F4E400CADB1B /* CalendarUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,9 +125,46 @@
 		F003542C22549E9000FB2E09 /* Today.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Today.entitlements; sourceTree = "<group>"; };
 		F00354372255946700FB2E09 /* Notis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notis.swift; sourceTree = "<group>"; };
 		F00354392255A37900FB2E09 /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		F00EE08624908F7F00E4B390 /* CalendarDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDate.swift; sourceTree = "<group>"; };
+		F00EE08924908FEF00E4B390 /* SectionSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionSplitViewController.swift; sourceTree = "<group>"; };
+		F00EE08B24908FFC00E4B390 /* Section.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Section.storyboard; sourceTree = "<group>"; };
+		F00EE08F2490910C00E4B390 /* SectionListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionListCellView.swift; sourceTree = "<group>"; };
+		F00EE091249091A700E4B390 /* SectionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionListViewController.swift; sourceTree = "<group>"; };
+		F00EE0932490A8DE00E4B390 /* SectionDetailCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionDetailCellView.swift; sourceTree = "<group>"; };
+		F00EE0952490A96B00E4B390 /* SectionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionDetailViewController.swift; sourceTree = "<group>"; };
+		F00EE0982490B1DE00E4B390 /* Web.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Web.storyboard; sourceTree = "<group>"; };
+		F00EE09B2490B59100E4B390 /* StoryDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetail.swift; sourceTree = "<group>"; };
+		F00EE09D2490B5AF00E4B390 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		F00EE09F2490B5D200E4B390 /* BeforeStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeStory.swift; sourceTree = "<group>"; };
+		F00EE0A12490B5E900E4B390 /* LatestStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestStory.swift; sourceTree = "<group>"; };
+		F00EE0A32490B5FD00E4B390 /* SectionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionDetail.swift; sourceTree = "<group>"; };
+		F00EE0A52490B62D00E4B390 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		F00EE0A82490B8CA00E4B390 /* PushAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushAnimator.swift; sourceTree = "<group>"; };
+		F00EE0AD2490BD8C00E4B390 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		F00EE0AF2490BEC700E4B390 /* Comment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Comment.storyboard; sourceTree = "<group>"; };
+		F00EE0B12490C17900E4B390 /* CommentListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentListCellView.swift; sourceTree = "<group>"; };
+		F00EE0B32490C23D00E4B390 /* CommentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentListViewController.swift; sourceTree = "<group>"; };
+		F00EE0B52490D2D000E4B390 /* LatestRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestRequest.swift; sourceTree = "<group>"; };
+		F00EE0B72490D31400E4B390 /* BeforeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeRequest.swift; sourceTree = "<group>"; };
+		F00EE0B92490D35500E4B390 /* SectionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionRequest.swift; sourceTree = "<group>"; };
+		F00EE0BB2490D8FE00E4B390 /* PagingScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingScrollView.swift; sourceTree = "<group>"; };
+		F00EE0BD2491C5C600E4B390 /* NSView+ZDaily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSView+ZDaily.swift"; sourceTree = "<group>"; };
+		F00EE0BF2491C83B00E4B390 /* NSViewController+ZDaily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSViewController+ZDaily.swift"; sourceTree = "<group>"; };
+		F0336348248F29E3002AAEDD /* LatestSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestSplitViewController.swift; sourceTree = "<group>"; };
+		F033634A248F29FC002AAEDD /* Latest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Latest.storyboard; sourceTree = "<group>"; };
+		F033634D248F2D19002AAEDD /* LatestBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestBannerView.swift; sourceTree = "<group>"; };
+		F033634F248F3979002AAEDD /* LatestListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestListViewController.swift; sourceTree = "<group>"; };
+		F0336353248F3D21002AAEDD /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		F0336355248F3FD8002AAEDD /* PageIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIndicatorView.swift; sourceTree = "<group>"; };
+		F0336357248F815E002AAEDD /* LatestBannerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LatestBannerView.xib; sourceTree = "<group>"; };
+		F0336397249078C6002AAEDD /* Before.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Before.storyboard; sourceTree = "<group>"; };
+		F033639924907AFF002AAEDD /* BeforeSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeSplitViewController.swift; sourceTree = "<group>"; };
+		F033639B24907B3F002AAEDD /* BeforeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeListViewController.swift; sourceTree = "<group>"; };
+		F033639E24907C7A002AAEDD /* BeforeListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeListCellView.swift; sourceTree = "<group>"; };
+		F03363A024907F74002AAEDD /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		F03363A224907F99002AAEDD /* CalendarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarView.xib; sourceTree = "<group>"; };
 		F04E78E722534FE500F756D2 /* ZDaily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZDaily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04E78EA22534FE500F756D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F04E78EC22534FE500F756D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F04E78EE22534FE700F756D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F04E78F122534FE700F756D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F04E78F322534FE700F756D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -127,38 +175,12 @@
 		F04E790422534FE700F756D2 /* ZDailyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDailyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04E790822534FE700F756D2 /* ZDailyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZDailyUITests.swift; sourceTree = "<group>"; };
 		F04E790A22534FE700F756D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F04E791A2253529200F756D2 /* OutlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineViewController.swift; sourceTree = "<group>"; };
-		F04E791C2253540B00F756D2 /* LinkSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkSplitViewController.swift; sourceTree = "<group>"; };
-		F04E79222253543F00F756D2 /* GroupedSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedSplitViewController.swift; sourceTree = "<group>"; };
-		F04E7925225358AF00F756D2 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
-		F04E792822535B7700F756D2 /* Apis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apis.swift; sourceTree = "<group>"; };
 		F04E792B2253641800F756D2 /* Rocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket.swift; sourceTree = "<group>"; };
-		F04E792D2254405500F756D2 /* StoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesViewController.swift; sourceTree = "<group>"; };
-		F04E792F225443E700F756D2 /* StoriesCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesCellView.swift; sourceTree = "<group>"; };
 		F04E7931225451D900F756D2 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		F04E79332254522200F756D2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		F04E79352254525F00F756D2 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
-		F04E79372254570C00F756D2 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
-		F04E793A22546B1500F756D2 /* NSButton+ZDaily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSButton+ZDaily.swift"; sourceTree = "<group>"; };
-		F04E793C225493D800F756D2 /* LatestStories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestStories.swift; sourceTree = "<group>"; };
-		F04E793E225495BD00F756D2 /* BeforeStories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeStories.swift; sourceTree = "<group>"; };
-		F04E79402254961200F756D2 /* SectionStories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionStories.swift; sourceTree = "<group>"; };
-		F06A87E022586707008C16F3 /* Scrollview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrollview.swift; sourceTree = "<group>"; };
-		F06A87E222587497008C16F3 /* ZalendarView+Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZalendarView+Navigator.swift"; sourceTree = "<group>"; };
-		F06A87E4225874C3008C16F3 /* ZalendarView+Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZalendarView+Stack.swift"; sourceTree = "<group>"; };
-		F06A87E622587E55008C16F3 /* ZalendarGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZalendarGridView.swift; sourceTree = "<group>"; };
-		F06A87E8225AD8B3008C16F3 /* BeforeDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeDate.swift; sourceTree = "<group>"; };
-		F06A87EA225AD958008C16F3 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
-		F0C5311F2255BF2000CADB1B /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
-		F0C531212255BF8C00CADB1B /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
-		F0C531232255D5DF00CADB1B /* CommentsCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsCellView.swift; sourceTree = "<group>"; };
-		F0C531262256195D00CADB1B /* PresentCommentsAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentCommentsAnimator.swift; sourceTree = "<group>"; };
 		F0C531282256456A00CADB1B /* NSColor+ZDaily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSColor+ZDaily.swift"; sourceTree = "<group>"; };
-		F0C5312B225649F100CADB1B /* SingleDateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleDateFormatter.swift; sourceTree = "<group>"; };
-		F0C5312D2256ED3700CADB1B /* BeforeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeHeaderView.swift; sourceTree = "<group>"; };
-		F0C5312F2256F4E400CADB1B /* SingleCalender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCalender.swift; sourceTree = "<group>"; };
-		F0C531332257C6C000CADB1B /* Zalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zalendar.swift; sourceTree = "<group>"; };
-		F0C531352257C70600CADB1B /* ZalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZalendarView.swift; sourceTree = "<group>"; };
+		F0C5312B225649F100CADB1B /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
+		F0C5312F2256F4E400CADB1B /* CalendarUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +257,193 @@
 			path = Today;
 			sourceTree = "<group>";
 		};
+		F00EE08824908FCB00E4B390 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F00EE08B24908FFC00E4B390 /* Section.storyboard */,
+				F00EE08924908FEF00E4B390 /* SectionSplitViewController.swift */,
+				F00EE091249091A700E4B390 /* SectionListViewController.swift */,
+				F00EE0952490A96B00E4B390 /* SectionDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F00EE08D249090DD00E4B390 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F00EE08F2490910C00E4B390 /* SectionListCellView.swift */,
+				F00EE0932490A8DE00E4B390 /* SectionDetailCellView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F00EE08E249090E800E4B390 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F00EE0A52490B62D00E4B390 /* Section.swift */,
+				F00EE0A32490B5FD00E4B390 /* SectionDetail.swift */,
+				F00EE0B92490D35500E4B390 /* SectionRequest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F00EE0972490B1AB00E4B390 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				F00EE0982490B1DE00E4B390 /* Web.storyboard */,
+				F04E7931225451D900F756D2 /* WebViewController.swift */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		F00EE09A2490B58200E4B390 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F00EE09D2490B5AF00E4B390 /* Story.swift */,
+				F00EE09B2490B59100E4B390 /* StoryDetail.swift */,
+				F00EE0A12490B5E900E4B390 /* LatestStory.swift */,
+				F00EE0B52490D2D000E4B390 /* LatestRequest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F00EE0A72490B69600E4B390 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				F00EE0AC2490BD4A00E4B390 /* Model */,
+				F00EE0AB2490BD4400E4B390 /* View */,
+				F00EE0AA2490BD3C00E4B390 /* ViewController */,
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		F00EE0AA2490BD3C00E4B390 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F00EE0AF2490BEC700E4B390 /* Comment.storyboard */,
+				F00EE0B32490C23D00E4B390 /* CommentListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F00EE0AB2490BD4400E4B390 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F00EE0B12490C17900E4B390 /* CommentListCellView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F00EE0AC2490BD4A00E4B390 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F00EE0AD2490BD8C00E4B390 /* Comment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F0336343248F28F5002AAEDD /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F00EE0972490B1AB00E4B390 /* Web */,
+				F0336351248F3CFE002AAEDD /* Window */,
+				F0336346248F292C002AAEDD /* Section */,
+				F0336345248F2913002AAEDD /* Before */,
+				F0336344248F28FB002AAEDD /* Latest */,
+				F00EE0A72490B69600E4B390 /* Comment */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F0336344248F28FB002AAEDD /* Latest */ = {
+			isa = PBXGroup;
+			children = (
+				F00EE09A2490B58200E4B390 /* Model */,
+				F033634C248F2CF9002AAEDD /* View */,
+				F0336347248F293D002AAEDD /* ViewController */,
+			);
+			path = Latest;
+			sourceTree = "<group>";
+		};
+		F0336345248F2913002AAEDD /* Before */ = {
+			isa = PBXGroup;
+			children = (
+				F03363A42490823F002AAEDD /* Model */,
+				F033639D24907C66002AAEDD /* View */,
+				F0336396249078A3002AAEDD /* ViewController */,
+			);
+			path = Before;
+			sourceTree = "<group>";
+		};
+		F0336346248F292C002AAEDD /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				F00EE08E249090E800E4B390 /* Model */,
+				F00EE08D249090DD00E4B390 /* View */,
+				F00EE08824908FCB00E4B390 /* ViewController */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		F0336347248F293D002AAEDD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F033634A248F29FC002AAEDD /* Latest.storyboard */,
+				F0336348248F29E3002AAEDD /* LatestSplitViewController.swift */,
+				F033634F248F3979002AAEDD /* LatestListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F033634C248F2CF9002AAEDD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0336357248F815E002AAEDD /* LatestBannerView.xib */,
+				F00EE0BB2490D8FE00E4B390 /* PagingScrollView.swift */,
+				F033634D248F2D19002AAEDD /* LatestBannerView.swift */,
+				F0336355248F3FD8002AAEDD /* PageIndicatorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F0336351248F3CFE002AAEDD /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				F0336353248F3D21002AAEDD /* WindowController.swift */,
+			);
+			path = Window;
+			sourceTree = "<group>";
+		};
+		F0336396249078A3002AAEDD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F0336397249078C6002AAEDD /* Before.storyboard */,
+				F033639924907AFF002AAEDD /* BeforeSplitViewController.swift */,
+				F033639B24907B3F002AAEDD /* BeforeListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F033639D24907C66002AAEDD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F03363A224907F99002AAEDD /* CalendarView.xib */,
+				F03363A024907F74002AAEDD /* CalendarView.swift */,
+				F033639E24907C7A002AAEDD /* BeforeListCellView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F03363A42490823F002AAEDD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F00EE08624908F7F00E4B390 /* CalendarDate.swift */,
+				F00EE09F2490B5D200E4B390 /* BeforeStory.swift */,
+				F00EE0B72490D31400E4B390 /* BeforeRequest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F04E78DE22534FE500F756D2 = {
 			isa = PBXGroup;
 			children = (
@@ -264,7 +473,6 @@
 			children = (
 				F04E79162253520700F756D2 /* Classes */,
 				F04E78EA22534FE500F756D2 /* AppDelegate.swift */,
-				F04E78EC22534FE500F756D2 /* ViewController.swift */,
 				F04E78EE22534FE700F756D2 /* Assets.xcassets */,
 				F04E78F022534FE700F756D2 /* Main.storyboard */,
 				F04E78F322534FE700F756D2 /* Info.plist */,
@@ -295,62 +503,19 @@
 		F04E79162253520700F756D2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F0C531312257C60600CADB1B /* Library */,
-				F0C5312A225649BA00CADB1B /* Tool */,
+				F0336343248F28F5002AAEDD /* Modules */,
+				F0C5312A225649BA00CADB1B /* Utils */,
 				F0C531252256192400CADB1B /* Animator */,
 				F04E793922546ADD00F756D2 /* Extension */,
 				F04E792A2253636700F756D2 /* Network */,
 				F04E792722535B5E00F756D2 /* Defs */,
-				F04E79192253524500F756D2 /* Controller */,
-				F04E79182253524000F756D2 /* View */,
-				F04E79172253523900F756D2 /* Model */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		F04E79172253523900F756D2 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				F04E7925225358AF00F756D2 /* Section.swift */,
-				F04E79372254570C00F756D2 /* Story.swift */,
-				F04E79352254525F00F756D2 /* News.swift */,
-				F04E793C225493D800F756D2 /* LatestStories.swift */,
-				F04E793E225495BD00F756D2 /* BeforeStories.swift */,
-				F04E79402254961200F756D2 /* SectionStories.swift */,
-				F0C531212255BF8C00CADB1B /* Comment.swift */,
-				F06A87E8225AD8B3008C16F3 /* BeforeDate.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		F04E79182253524000F756D2 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				F04E792F225443E700F756D2 /* StoriesCellView.swift */,
-				F0C531232255D5DF00CADB1B /* CommentsCellView.swift */,
-				F0C5312D2256ED3700CADB1B /* BeforeHeaderView.swift */,
-				F06A87EA225AD958008C16F3 /* SectionHeaderView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		F04E79192253524500F756D2 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				F04E79222253543F00F756D2 /* GroupedSplitViewController.swift */,
-				F04E791C2253540B00F756D2 /* LinkSplitViewController.swift */,
-				F04E791A2253529200F756D2 /* OutlineViewController.swift */,
-				F04E792D2254405500F756D2 /* StoriesViewController.swift */,
-				F04E7931225451D900F756D2 /* WebViewController.swift */,
-				F0C5311F2255BF2000CADB1B /* CommentsViewController.swift */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		F04E792722535B5E00F756D2 /* Defs */ = {
 			isa = PBXGroup;
 			children = (
-				F04E792822535B7700F756D2 /* Apis.swift */,
 				F00354372255946700FB2E09 /* Notis.swift */,
 			);
 			path = Defs;
@@ -367,8 +532,9 @@
 		F04E793922546ADD00F756D2 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				F04E793A22546B1500F756D2 /* NSButton+ZDaily.swift */,
 				F0C531282256456A00CADB1B /* NSColor+ZDaily.swift */,
+				F00EE0BD2491C5C600E4B390 /* NSView+ZDaily.swift */,
+				F00EE0BF2491C83B00E4B390 /* NSViewController+ZDaily.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -376,39 +542,18 @@
 		F0C531252256192400CADB1B /* Animator */ = {
 			isa = PBXGroup;
 			children = (
-				F0C531262256195D00CADB1B /* PresentCommentsAnimator.swift */,
+				F00EE0A82490B8CA00E4B390 /* PushAnimator.swift */,
 			);
 			path = Animator;
 			sourceTree = "<group>";
 		};
-		F0C5312A225649BA00CADB1B /* Tool */ = {
+		F0C5312A225649BA00CADB1B /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				F0C5312B225649F100CADB1B /* SingleDateFormatter.swift */,
-				F0C5312F2256F4E400CADB1B /* SingleCalender.swift */,
+				F0C5312B225649F100CADB1B /* DateUtils.swift */,
+				F0C5312F2256F4E400CADB1B /* CalendarUtils.swift */,
 			);
-			path = Tool;
-			sourceTree = "<group>";
-		};
-		F0C531312257C60600CADB1B /* Library */ = {
-			isa = PBXGroup;
-			children = (
-				F0C531322257C63F00CADB1B /* Zalendar */,
-			);
-			path = Library;
-			sourceTree = "<group>";
-		};
-		F0C531322257C63F00CADB1B /* Zalendar */ = {
-			isa = PBXGroup;
-			children = (
-				F0C531332257C6C000CADB1B /* Zalendar.swift */,
-				F0C531352257C70600CADB1B /* ZalendarView.swift */,
-				F06A87E622587E55008C16F3 /* ZalendarGridView.swift */,
-				F06A87E222587497008C16F3 /* ZalendarView+Navigator.swift */,
-				F06A87E4225874C3008C16F3 /* ZalendarView+Stack.swift */,
-				F06A87E022586707008C16F3 /* Scrollview.swift */,
-			);
-			path = Zalendar;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -565,8 +710,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F04E78EF22534FE700F756D2 /* Assets.xcassets in Resources */,
+				F033634B248F29FC002AAEDD /* Latest.storyboard in Resources */,
+				F0336358248F815E002AAEDD /* LatestBannerView.xib in Resources */,
+				F0336398249078C6002AAEDD /* Before.storyboard in Resources */,
+				F00EE0B02490BEC700E4B390 /* Comment.storyboard in Resources */,
+				F03363A324907F99002AAEDD /* CalendarView.xib in Resources */,
 				F003543A2255A37900FB2E09 /* InfoPlist.strings in Resources */,
+				F00EE08C24908FFC00E4B390 /* Section.storyboard in Resources */,
 				F04E78F222534FE700F756D2 /* Main.storyboard in Resources */,
+				F00EE0992490B1DE00E4B390 /* Web.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,18 +811,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZDaily/Pods-ZDaily-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-ZDaily/Pods-ZDaily-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-ZDaily/Pods-ZDaily-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -692,40 +837,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0C5312C225649F100CADB1B /* SingleDateFormatter.swift in Sources */,
-				F04E78ED22534FE500F756D2 /* ViewController.swift in Sources */,
+				F0C5312C225649F100CADB1B /* DateUtils.swift in Sources */,
+				F0336356248F3FD8002AAEDD /* PageIndicatorView.swift in Sources */,
+				F00EE0902490910C00E4B390 /* SectionListCellView.swift in Sources */,
+				F00EE0A92490B8CA00E4B390 /* PushAnimator.swift in Sources */,
 				F04E7932225451D900F756D2 /* WebViewController.swift in Sources */,
-				F06A87E722587E55008C16F3 /* ZalendarGridView.swift in Sources */,
-				F06A87E322587497008C16F3 /* ZalendarView+Navigator.swift in Sources */,
-				F04E791D2253540B00F756D2 /* LinkSplitViewController.swift in Sources */,
-				F04E7930225443E700F756D2 /* StoriesCellView.swift in Sources */,
-				F0C531242255D5DF00CADB1B /* CommentsCellView.swift in Sources */,
-				F04E793D225493D800F756D2 /* LatestStories.swift in Sources */,
+				F00EE0942490A8DE00E4B390 /* SectionDetailCellView.swift in Sources */,
+				F00EE08A24908FEF00E4B390 /* SectionSplitViewController.swift in Sources */,
 				F0C531292256456A00CADB1B /* NSColor+ZDaily.swift in Sources */,
 				F00354382255946700FB2E09 /* Notis.swift in Sources */,
-				F0C531302256F4E400CADB1B /* SingleCalender.swift in Sources */,
-				F04E791B2253529200F756D2 /* OutlineViewController.swift in Sources */,
-				F0C531202255BF2000CADB1B /* CommentsViewController.swift in Sources */,
-				F06A87E9225AD8B3008C16F3 /* BeforeDate.swift in Sources */,
-				F04E792922535B7700F756D2 /* Apis.swift in Sources */,
-				F04E793B22546B1500F756D2 /* NSButton+ZDaily.swift in Sources */,
-				F0C531342257C6C000CADB1B /* Zalendar.swift in Sources */,
-				F04E79362254525F00F756D2 /* News.swift in Sources */,
-				F0C531272256195D00CADB1B /* PresentCommentsAnimator.swift in Sources */,
-				F0C531362257C70600CADB1B /* ZalendarView.swift in Sources */,
-				F06A87E122586707008C16F3 /* Scrollview.swift in Sources */,
-				F04E79412254961200F756D2 /* SectionStories.swift in Sources */,
-				F06A87E5225874C3008C16F3 /* ZalendarView+Stack.swift in Sources */,
-				F04E7926225358AF00F756D2 /* Section.swift in Sources */,
-				F04E793F225495BD00F756D2 /* BeforeStories.swift in Sources */,
-				F04E79232253543F00F756D2 /* GroupedSplitViewController.swift in Sources */,
-				F06A87EB225AD958008C16F3 /* SectionHeaderView.swift in Sources */,
-				F0C531222255BF8C00CADB1B /* Comment.swift in Sources */,
+				F00EE0A62490B62D00E4B390 /* Section.swift in Sources */,
+				F0336350248F3979002AAEDD /* LatestListViewController.swift in Sources */,
+				F033634E248F2D19002AAEDD /* LatestBannerView.swift in Sources */,
+				F00EE0BA2490D35500E4B390 /* SectionRequest.swift in Sources */,
+				F00EE0BE2491C5C600E4B390 /* NSView+ZDaily.swift in Sources */,
+				F0C531302256F4E400CADB1B /* CalendarUtils.swift in Sources */,
+				F033639F24907C7A002AAEDD /* BeforeListCellView.swift in Sources */,
+				F00EE09E2490B5AF00E4B390 /* Story.swift in Sources */,
+				F00EE0AE2490BD8C00E4B390 /* Comment.swift in Sources */,
+				F00EE0A22490B5E900E4B390 /* LatestStory.swift in Sources */,
+				F00EE0B42490C23D00E4B390 /* CommentListViewController.swift in Sources */,
+				F00EE08724908F7F00E4B390 /* CalendarDate.swift in Sources */,
+				F033639C24907B3F002AAEDD /* BeforeListViewController.swift in Sources */,
+				F00EE0B62490D2D000E4B390 /* LatestRequest.swift in Sources */,
+				F0336354248F3D21002AAEDD /* WindowController.swift in Sources */,
+				F03363A124907F74002AAEDD /* CalendarView.swift in Sources */,
+				F00EE09C2490B59100E4B390 /* StoryDetail.swift in Sources */,
+				F00EE0BC2490D8FE00E4B390 /* PagingScrollView.swift in Sources */,
+				F00EE0962490A96B00E4B390 /* SectionDetailViewController.swift in Sources */,
+				F00EE0C02491C83B00E4B390 /* NSViewController+ZDaily.swift in Sources */,
+				F033639A24907AFF002AAEDD /* BeforeSplitViewController.swift in Sources */,
+				F0336349248F29E3002AAEDD /* LatestSplitViewController.swift in Sources */,
+				F00EE0A42490B5FD00E4B390 /* SectionDetail.swift in Sources */,
 				F04E78EB22534FE500F756D2 /* AppDelegate.swift in Sources */,
 				F04E792C2253641800F756D2 /* Rocket.swift in Sources */,
-				F0C5312E2256ED3700CADB1B /* BeforeHeaderView.swift in Sources */,
-				F04E792E2254405500F756D2 /* StoriesViewController.swift in Sources */,
-				F04E79382254570C00F756D2 /* Story.swift in Sources */,
+				F00EE0A02490B5D200E4B390 /* BeforeStory.swift in Sources */,
+				F00EE0B22490C17900E4B390 /* CommentListCellView.swift in Sources */,
+				F00EE0B82490D31400E4B390 /* BeforeRequest.swift in Sources */,
+				F00EE092249091A700E4B390 /* SectionListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -964,8 +1113,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mofashy.ZDaily;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -986,8 +1137,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mofashy.ZDaily;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

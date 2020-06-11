@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="16097" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16097"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe" customClass="LatestBannerView" customModule="ZDaily" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="310" height="201"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <scrollView wantsLayer="YES" borderType="none" autohidesScrollers="YES" horizontalLineScroll="0.0" horizontalPageScroll="0.0" verticalLineScroll="0.0" verticalPageScroll="0.0" hasHorizontalScroller="NO" hasVerticalScroller="NO" usesPredominantAxisScrolling="NO" horizontalScrollElasticity="none" verticalScrollElasticity="none" translatesAutoresizingMaskIntoConstraints="NO" id="6IZ-14-Okp" customClass="PagingScrollView" customModule="ZDaily" customModuleProvider="target">
+                    <rect key="frame" x="10" y="10" width="290" height="181"/>
+                    <clipView key="contentView" id="Qbw-Ex-Nbp">
+                        <rect key="frame" x="0.0" y="0.0" width="290" height="181"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView id="bZf-gK-tjc">
+                                <rect key="frame" x="0.0" y="0.0" width="290" height="181"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" id="Ztz-FB-gfg">
+                                    <size key="itemSize" width="50" height="50"/>
+                                </collectionViewFlowLayout>
+                                <color key="primaryBackgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="c22-O7-iKe" id="ekm-O6-jNS"/>
+                                    <outlet property="delegate" destination="c22-O7-iKe" id="jaY-fU-oad"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                    </clipView>
+                    <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" controlSize="mini" horizontal="YES" id="Cab-YK-Mgn">
+                        <rect key="frame" x="-100" y="-100" width="38" height="11"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" controlSize="mini" horizontal="NO" id="JN5-zx-cZZ">
+                        <rect key="frame" x="-100" y="-100" width="14" height="162"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                </scrollView>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="orC-wZ-OVi">
+                    <rect key="frame" x="145" y="20" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="IHk-Cw-tzy"/>
+                        <constraint firstAttribute="height" constant="20" id="j3Z-tr-EHy"/>
+                    </constraints>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="6IZ-14-Okp" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="10" id="7eC-xl-xD3"/>
+                <constraint firstAttribute="bottom" secondItem="orC-wZ-OVi" secondAttribute="bottom" constant="20" id="IUQ-1g-4Mo"/>
+                <constraint firstItem="6IZ-14-Okp" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="10" id="NGA-fj-Pae"/>
+                <constraint firstItem="orC-wZ-OVi" firstAttribute="centerX" secondItem="c22-O7-iKe" secondAttribute="centerX" id="QRy-yx-Opz"/>
+                <constraint firstAttribute="trailing" secondItem="6IZ-14-Okp" secondAttribute="trailing" constant="10" id="X9d-XD-hst"/>
+                <constraint firstAttribute="bottom" secondItem="6IZ-14-Okp" secondAttribute="bottom" constant="10" id="XwZ-zG-mvl"/>
+                <constraint firstItem="orC-wZ-OVi" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="c22-O7-iKe" secondAttribute="leading" constant="20" id="Z0P-aA-STf"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="orC-wZ-OVi" secondAttribute="trailing" constant="20" id="o87-0w-g5y"/>
+            </constraints>
+            <connections>
+                <outlet property="collectionView" destination="bZf-gK-tjc" id="SeN-TY-wKT"/>
+            </connections>
+            <point key="canvasLocation" x="28" y="120.5"/>
+        </customView>
+    </objects>
+</document>
